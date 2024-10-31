@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.Com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="youtube/hamburger-menu.svg">
+        <img class="youtube-logo" src="youtube/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="Search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-img" src="youtube/search.svg">
+          <div class="tooltip">Search</div>
+        </button>  
+        <!-- Put position absolute inside position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-img" src="youtube/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-img" src="youtube/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-img" src="youtube/youtube-apps.svg">
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="notifications-icon-container"><img class="notifications-img" src="youtube/notifications.svg">
+        <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="practice/thumbnails/cutest-dog-breed-bernese-64356a43dbcc5.avif">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="youtube/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="youtube/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="youtube/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="youtube/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="youtube/youtube-music.svg">
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="youtube/library.svg">
+      <div>Library</div>
+    </div>
+    </nav>
+    
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails2/thumbnail-1.webp">
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="video-author">
+                Marques Brownlee
+              </p>
+              <p class="video-stats">
+                3.4M views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails2/thumbnail-2.webp">
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Try Not To Laugh Challenge #9
+              </p>
+              <p class="video-author">
+                Markiplier
+              </p>
+              <p class="video-stats">
+                19M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails2/thumbnail-8.webp">
+            <div class="video-time">10:12</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-8.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                
+  Inside The World's Biggest Passenger Plane
+              </p>
+              <p class="video-author">
+                Tech Vision
+              </p>
+              <p class="video-stats">
+                3.7M views &#183 10 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails2/thumbnail-4.webp">
+            <div class="video-time">13:14</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+              <p class="video-author">
+                Veritasium
+              </p>
+              <p class="video-stats">
+                18M views &#183; 4 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails2/thumbnail-5.webp">
+            <div class="video-time">16:25</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+              <p class="video-author">
+                CS Dojo
+              </p>
+              <p class="video-stats">
+                519K views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails2/thumbnail-7.webp">
+            <div class="video-time">12:52</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-7.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Why Planes Don't Fly Over Tibet
+              </p>
+              <p class="video-author">
+                RealLifeLore
+              </p>
+              <p class="video-stats">
+                6.6M views &#183 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails2/hq720 (1).webp">
+            <div class="video-time">20:24</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-8.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                
+                Stuart & Cliffe Knechtle | Is It Time For All Of Us To Be Talking About Jesus? | Give Me An Answer
+              </p>
+              <p class="video-author">
+                Give Me An Answer with Stuart & Cliffe Knechtle
+              </p>
+              <p class="video-stats">
+                59K Views & 2 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails2/hq720 (2).webp">
+            <div class="video-time">28:18</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-8.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                I tried powerlifting for 100 days
+              </p>
+              <p class="video-author">
+                Matt D'Avella
+              </p>
+              <p class="video-stats">
+                1.6M Views & 8 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails2/hq720 (4).webp">
+            <div class="video-time">28:53</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-8.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                
+                Stuart & Cliffe Knechtle | Does God's Will Change According To Culture? | Give Me An Answer
+              </p>
+              <p class="video-author">
+                Give Me An Answer with Stuart & Cliffe Knechtle
+              </p>
+              <p class="video-stats">
+                83K Views & 4 weeks ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Thumbnails2/hq720 (5).webp">
+            <div class="video-time">13:52</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-8.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                I Tried to Improve my Reflexes for 30 Days - Boxing & Neuroscience Based Training
+              </p>
+              <p class="video-author">
+                Goal Guys
+              </p>
+              <p class="video-stats">
+                379K Views & 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+    </main>
+  </body>
+</html>
